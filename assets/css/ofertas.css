@@ -77,4 +77,11 @@
 
 .carrossel::-webkit-scrollbar {
   display: none; 
+
+@media (max-width: 768px) {
+  .carrossel-nav {
+    display: none;
+  }
+}
+
 }
