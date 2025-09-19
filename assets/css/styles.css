@@ -1,0 +1,117 @@
+@import url(./cabecalho.css);
+@import url(./destaques.css);
+@import url(./servicos.css);
+@import url(./planos.css);
+@import url(./ofertas.css);
+@import url(./parceiros.css);
+@import url(./newsletter.css);
+@import url(./rodape.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+    --cor-cinza-escuro: #444444;
+    --cor-cinza-claro: #b9b9b9;
+    --cor-branco: #ffffff;
+    --cor-coral: #ee6451;
+    --cor-ocre: #c13724;
+    --cor-bege-claro: #fff5eb;
+    --cor-bege: #f5e6d6;
+    --cor-verde: #cbda74;
+    --cor-verde-escuro: #a2b72b;
+    --cor-verde-claro: #eff2e1;
+    --cor-primaria-box-shadow: rgba(193, 55, 36, 0.4);
+    --cor-secundaria-box-shadow: rgba(162, 183, 43, 0.4);
+  
+    --font-sigmar: "Sigmar", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+
+    --font-size-xxxl: 4.5rem;
+    --font-size-xxl: 2.625rem;
+    --font-size-xl: 2.438rem;
+    --font-size-l: 1.938rem;
+    --font-size-xm: 1.563rem;
+    --font-size-m: 1.25rem;
+    --font-size-b: 1rem;
+    --font-size-s: 0.813rem;
+
+    --line-height: 120%;
+
+    --padding-xs: 0.25rem;
+    --padding-s: 0.5rem;
+    --padding-m: 1rem;
+    --padding-l: 1.5rem;
+    --padding-xl: 2rem;
+    --padding-xxl: 2.5rem;
+    --padding-3xl: 3.75rem;
+    --padding-4xl: 4rem;
+    --padding-5xl: 4.75rem;
+
+    --gap-xs: 0.25rem;
+    --gap-s: 0.5rem;
+    --gap-m: 1rem;
+    --gap-l: 1.5rem;
+    --gap-xl: 2rem;
+    --gap-xxl: 2.5rem;
+    --gap-xxxl: 6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-sigmar);
+    line-height: var(--line-height);
+}
+
+h1 {
+    font-size: var(--font-size-xxxl);
+}
+
+h2 {
+    font-size: var(--font-size-xxl);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+}
+
+h4 {
+    font-size: var(--font-size-l);
+}
+
+h5 {
+    font-size: var(--font-size-xm);
+}
+
+body {
+    font-family: var(--font-poppins);
+    color: var(--cor-cinza-escuro);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--cor-branco);
+    
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+ 
